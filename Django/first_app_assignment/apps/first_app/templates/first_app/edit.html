@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>edit_page</title>
+  </head>
+  <body>
+    <h1>edit_page</h1>
+    <form action="/user_id/10/update" method="post">
+      {% csrf_token %}
+      Email:<input type="text" name="email"><br>
+      First Name:<input type="text" name="first_name"><br>
+      Occupation:<input type="text" name="occupation"><br>
+      <input type="submit">
+    </form>
+  </body>
+</html>
