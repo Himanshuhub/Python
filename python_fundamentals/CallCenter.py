@@ -1,4 +1,10 @@
 # Call Center
+#
+class test(object):
+    """docstring for test."""
+    def __init__(self, arg):
+        print "test"
+
 class Call(object):
     def __init__(self, unique_id, caller_name, caller_phone_number, time_of_call, reason_for_call):
         self.unique_id = unique_id
